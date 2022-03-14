@@ -1,3 +1,160 @@
-div{
-    color:red;
+/* .container{
+    margin:5px 30px;
+}
+.wrapper{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 20px;
+    row-gap:20px;
+    justify-items: center
+}
+.product_card{
+       max-width: 400px;
+       overflow: hidden;
+       height: 470px;
+       padding: 12px;
+       box-shadow: 0 0 15px #ddd;
+       margin: 10px 0;
+       position: relative;
+   }
+   .product_card img{
+    
+       height: 300px;
+       display: block;
+       width: 100%;
+       object-fit: fill;
+   }   
+   
+   .product_title{
+       width:100%;
+       white-space: nowrap;
+       overflow: hidden;
+       text-overflow: ellipsis;
+       font-size:35px;
+   
+   }
+   .product_price{
+       font-size:20px;
+       width:100%;
+      
+   }
+   .product_description{
+       font-size:20px;
+       width:100%;
+       
+   }
+   .product_button{
+   
+       display: flex;
+       align-items: center;
+       margin-top: 10px;
+       justify-content: space-around;
+   }
+   .product_button_buy{
+       padding:12px 30px;
+       background: #555;
+       margin-right: 10px;
+   }
+   .product_button_view{
+       padding:12px 30px;
+     background: teal;
+       margin-left: 10px;
+   }
+ */
+ /* ------------------detail */
+ 
+ .detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 150%;
+}
+.detail img{
+    max-width: 400px;
+    width: 100%;
+    margin: 10px;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}
+.box-detail{
+    max-width: 500px;
+    width: 100%;
+    margin: 5px 20px;
+}
+.box-detail .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-detail h2{
+    text-transform: uppercase;
+    color: darkblue;
+    letter-spacing: 2px;
+    font-weight: 2rem;
+}
+.box-detail p{
+    line-height: 1.5;
+    margin: 10px 0;
+    opacity: 0.8;
+}
+.box-detail .cart{
+    background: #333;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+ /* fotter --------------------- */
+.footer-container{
+    background-color: #282828;
+    background-image: url("https://ik.imagekit.io/reviewcafe/bg-dark_XOhLpLNAe0S.jpg");
+    background-repeat: repeat;
+    border-top: 1px solid hsla(0,0%,100%,.6);
+  
+   
+}
+.footer-container-top{
+  
+    display:flex;
+    justify-content: space-around;
+    padding:30px;
+    position:relative
+}
+.footer_link-item{
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+.footer_title{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    color: #fff
+}
+.footer_name{
+    color:#fff;
+   
+    position:absolute;
+}
+.footer__copyright{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px #fff solid ;
+}
+.footeer__copyright--name{
+  
+    font-size: 16px;
+    padding: 10px 0;
+    color: #e03;
 }
